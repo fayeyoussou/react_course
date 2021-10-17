@@ -1,10 +1,10 @@
 import React from "react";
 // import react from "react";
 import ReactDOM from 'react-dom';
+import Header from './views/header'
 const App = () => (
     <>
-        <h1>ceci est le premier</h1>
-        <h2>ceci est le second</h2>
+        <Header/>
     </>
 )
 /**
