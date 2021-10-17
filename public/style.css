@@ -1,0 +1,11 @@
+.header-u {
+    background:"#a15599";
+
+}
+.logo  {
+    font-family :'Festive';
+    color: '#fff';
+    text-align : 'Center';
+    font-size : '70px';
+    text-transform : 'capitalize'
+}

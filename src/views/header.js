@@ -1,6 +1,10 @@
 import React,{Component} from "react";
 // or we can add React.Component directly
 class Header extends Component {
+    clickheadhandler(name,event){
+        console.log(event)
+        console.log(`${name} click on ${event.target}`)
+    }
     /* style = {
         header : {
             background:"#a15599",
@@ -18,8 +22,10 @@ class Header extends Component {
     render()
     {
         //using classname is the best way of style
-        return <header className="logo">
-            <div>logo</div>
+        return <header className="header-u" onClick={this.clickheadhandler.bind(this,'youssou')}
+        
+        >
+            <div className="logo">logo</div>
             <div>the date is {new Date().getFullYear()}</div>
         </header>
     }
